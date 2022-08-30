@@ -12,7 +12,13 @@ window.addEventListener("DOMContentLoaded", start);
 // start
 function start() {
   console.log("start");
-  //   call loop function
+  //   call init loop function
+  initLoop();
+}
+
+function initLoop() {
+  console.log(`loop`);
+  // call loop
   loop();
 }
 
